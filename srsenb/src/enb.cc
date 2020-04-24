@@ -127,7 +127,7 @@ int enb::init(const all_args_t& args_)
   phy   = std::move(lte_phy);
   radio = std::move(lte_radio);
 
-  log.console("\n==== eNodeB started ===\n");
+  log.console("\n==== eNodeB (anl) started ===\n");
   log.console("Type <t> to view trace\n");
 
   started = true;
