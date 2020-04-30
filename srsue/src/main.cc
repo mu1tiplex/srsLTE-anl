@@ -542,6 +542,8 @@ int main(int argc, char* argv[])
     return ret;
   }
 
+  cout << endl << "---  Software Radio Systems UE (anl)  ---" << endl << endl;
+
   srslte::logger_stdout logger_stdout;
   srslte::logger_file   logger_file;
 

@@ -389,7 +389,7 @@ int main(int argc, char* argv[])
   // print build info
   cout << endl << get_build_string() << endl;
 
-  cout << endl << "---  Software Radio Systems EPC  ---" << endl << endl;
+  cout << endl << "---  Software Radio Systems EPC (anl)  ---" << endl << endl;
   srslte_debug_handle_crash(argc, argv);
 
   all_args_t args;
