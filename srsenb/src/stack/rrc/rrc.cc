@@ -1097,7 +1097,7 @@ bool rrc::ue::is_timeout()
       deadline_str = "RRCConnectionSetup";
       break;
     case RRC_STATE_WAIT_FOR_CON_SETUP_COMPLETE:
-      deadline_s   = 1;
+      deadline_s   = 4; // to avoid timeouts in student projects
       deadline_us  = 0;
       deadline_str = "RRCConnectionSetupComplete";
       break;
